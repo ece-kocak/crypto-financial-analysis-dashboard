@@ -1,46 +1,12 @@
-# crypto-financial-analysis-dashboard
+<img width="1470" height="842" alt="app-ss" src="https://github.com/user-attachments/assets/2715fdcf-4734-49ed-955b-c65713731b20" />
 
-A quantitative cryptocurrency analysis dashboard built with Streamlit.
+Crypto Price Tracker is an interactive cryptocurrency analytics dashboard built with Python and Streamlit. The application integrates the CoinGecko public API to fetch real-time and historical market data and visualizes price movements using Plotly. The project focuses on clean UI design, efficient data handling, and the implementation of basic technical analysis indicators.
 
-This project focuses on transforming raw cryptocurrency market data into meaningful financial metrics such as:
+The application allows users to select from the top 20 cryptocurrencies by market capitalization or manually enter a coin . Users can analyze price performance across multiple time ranges including 1 day, 7 days, 1 month, and 1 year. Historical price data is processed using Pandas and displayed through interactive line charts.
 
-- Price trends
-- Moving averages
-- Daily returns
-- Volatility analysis
-- Correlation between selected assets
+For deeper financial analysis, the dashboard includes two technical indicators: the 20-period Moving Average (MA20) and the 50-period Moving Average (MA50). These indicators are calculated using true rolling window logic to ensure accuracy, and users can dynamically enable or disable them through toggle controls.
 
-Project Goals
+To improve performance and reduce unnecessary API calls, the project uses Streamlit’s caching mechanism. Session state management is implemented to control time range selection and maintain a responsive user interface. Basic error handling is also included to manage invalid coin IDs and potential API rate limits.
 
-- Fetch real-time crypto data from CoinGecko API
-- Visualize price movements
-- Implement moving averages
-- Calculate return series
-- Measure volatility
-- Compare two cryptocurrencies side by side
-- Explore basic risk metrics
-
-Tech Stack
-
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Matplotlib
-- CoinGecko API
-
- Planned Features
-
-- Select coin from Top list or manual coin input
-- Adjustable time window
-- Moving average overlays
-- Volatility calculation
-- Correlation matrix for selected assets
-- Export data as CSV
-
-
-This project is designed to strengthen quantitative analysis skills in financial data and build a clean, interactive analytical dashboard.
-
-It serves as a portfolio project for data science and financial analytics roles.
-
-Developed as a learning-focused quantitative finance project.
+To run the project clone the repository, install the required dependencies using pip, and start the application with the command "streamlit run app.py". This project demonstrates practical experience in REST API integration, data transformation, financial indicator implementation, and interactive dashboard development.
+Author:Ece Koçak
