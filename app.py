@@ -45,9 +45,7 @@ def fetch_crypto_data(coin_id, days):
     return None
 
 
-# -----------------------------
-# COIN SELECTION
-# -----------------------------
+
 coin_options = get_top_20_coins()
 coin_names = list(coin_options.keys())
 
@@ -66,9 +64,7 @@ elif selected_coin_name != "Select...":
     selected_coin = coin_options[selected_coin_name]
 
 
-# -----------------------------
-# TIME RANGE
-# -----------------------------
+
 st.markdown("### ⏳ Time Range")
 
 col1, col2, col3, col4 = st.columns(4)
