@@ -148,7 +148,7 @@ if selected_coin and selected_days:
         st.plotly_chart(fig, use_container_width=True)
 
     else:
-        st.error("Unable to fetch data. The coin ID might be invalid or API rate limit exceeded.")
+        st.error("Unable to fetch data. The coin invalid or API rate limit exceeded.")
 
 elif selected_coin is None and selected_coin_name == "Other":
     st.info("Please enter a coin.")
