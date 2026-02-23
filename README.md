@@ -1,6 +1,6 @@
 <img width="1183" height="784" alt="app ss" src="https://github.com/user-attachments/assets/789e35ce-ca14-4f4f-9822-7d9d20731921" />
 
-Crypto Price Tracker is an interactive cryptocurrency analytics dashboard built with Python and Streamlit. The application integrates the CoinGecko public API to fetch real-time and historical market data and visualizes price movements using Plotly. The project focuses on clean UI design, efficient data handling, and the implementation of basic technical analysis indicators.
+Crypto Analysis Dashboard is an interactive cryptocurrency analytics dashboard built with Python and Streamlit. The application integrates the CoinGecko public API to fetch real-time and historical market data and visualizes price movements using Plotly. The project focuses on clean UI design, efficient data handling, and the implementation of basic technical analysis indicators.
 
 The application allows users to select from the top 20 cryptocurrencies by market capitalization or manually enter a coin . Users can analyze price performance across multiple time ranges including 1 day, 7 days, 1 month, and 1 year. Historical price data is processed using Pandas and displayed through interactive line charts.
 
