@@ -1,4 +1,4 @@
-<img width="1470" height="842" alt="app-ss" src="https://github.com/user-attachments/assets/2715fdcf-4734-49ed-955b-c65713731b20" />
+<img width="1183" height="784" alt="app ss" src="https://github.com/user-attachments/assets/789e35ce-ca14-4f4f-9822-7d9d20731921" />
 
 Crypto Price Tracker is an interactive cryptocurrency analytics dashboard built with Python and Streamlit. The application integrates the CoinGecko public API to fetch real-time and historical market data and visualizes price movements using Plotly. The project focuses on clean UI design, efficient data handling, and the implementation of basic technical analysis indicators.
 
