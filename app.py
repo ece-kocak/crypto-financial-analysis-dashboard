@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="Crypto Tracker", layout="wide")
 
-st.title("🚀 Crypto Dashboard")
+st.title("Crypto Dashboard")
 
 
 
@@ -65,7 +65,7 @@ elif selected_coin_name != "Select...":
 
 
 
-st.markdown("### ⏳ Time Range")
+st.markdown("###  Time Range")
 
 col1, col2, col3, col4 = st.columns(4)
 
